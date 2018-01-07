@@ -1,0 +1,16 @@
+@import '~sass/variables';
+
+h2{
+    margin: 20px;
+}
+
+li {
+    border: 1px solid lightgrey; 
+    margin: 20px;
+    padding: 20px
+}
+
+b.titulo-oferta{
+    color: $azul;
+    margin-bottom: 10px;
+}

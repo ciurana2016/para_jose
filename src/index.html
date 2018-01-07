@@ -1,14 +1,25 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TemplatingApp</title>
-  <base href="/">
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>TemplatingApp</title>
+        <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <!-- css a chapa para que no cargue blanco cuando angular no ha terminado de cargar -->
+        <style>body{background:#fafafa}</style>
+
+    </head>
+    <body>
+        <!-- por si cargan sin js -->
+        <noscript>
+            Esta web necesita javascript para funcionar
+        </noscript>
+        <!-- Aqui dentro carga angular -->
+        <app-root>
+            <!-- Podemos poner un "loading" o contenido aqui mientras se carga la app de angular -->
+        </app-root>
+    </body>
 </html>
