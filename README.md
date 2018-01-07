@@ -1,3 +1,8 @@
+# scss/sass sacado de este enlace
+https://scotch.io/tutorials/using-sass-with-the-angular-cli
+
+Lo que viene ahora es el README creado por angular cli
+
 # TemplatingApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
